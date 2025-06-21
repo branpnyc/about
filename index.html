@@ -4,128 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon Payne | Learning Program Highlights</title>
-    <!-- Inter Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Updated Fonts: Roboto for all headings, Inter for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom styles to ensure Inter font is applied and provide a base */
-        body {
+        /* Custom styles to ensure fonts are applied */
+        /* All headings now use Roboto */
+        .font-heading-main,
+        .font-heading-sub {
+            font-family: 'Roboto', sans-serif;
+        }
+        .font-body {
             font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body class="font-inter bg-gray-50 text-gray-900 min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl w-full space-y-12 bg-white p-8 sm:p-10 rounded-xl shadow-2xl">
+<body class="font-body bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 p-8">
+    <div class="max-w-4xl w-full space-y-12 bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl border border-gray-700">
 
         <!-- Header Section -->
         <header class="text-center">
-            <h1 class="text-5xl sm:text-6xl font-extrabold text-indigo-800 leading-tight mb-4">Brandon Payne | Learning Program Highlights</h1>
-            <p class="quote italic text-xl sm:text-2xl text-gray-600 mb-12">“Let’s build training and certification pathways as dynamic as the communities they serve.”</p>
+            <h1 class="font-heading-main text-5xl sm:text-6xl font-extrabold text-indigo-400 leading-tight mb-2">Brandon Payne</h1>
+            <h2 class="text-2xl sm:text-3xl font-semibold text-gray-300 mb-4">Building Bridges Through Tech</h2>
+            <p class="quote italic text-xl sm:text-2xl text-gray-400 mb-12">Cultivating dynamic training and certification pathways that empower communities.</p>
         </header>
 
         <!-- About Section -->
-        <section class="p-6 bg-indigo-50 rounded-lg shadow-inner">
-            <h2 class="text-3xl sm:text-4xl font-bold text-indigo-700 mb-4">About This Page</h2>
-            <p class="text-lg leading-relaxed text-gray-700">Hi, I’m Brandon — a program strategist and educator focused on digital literacy, career pathways, and community-centered certifications. This page highlights select learning and workforce development programs I’ve built, designed to empower underserved communities and emerging professionals.</p>
+        <section class="p-6 bg-gray-700 rounded-lg shadow-inner border border-gray-600">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">A Vision for Empowered Learning</h2>
+            <p class="text-lg leading-relaxed text-gray-300">As a program strategist and educator, I specialize in crafting digital literacy, career pathway, and community-centered certification programs. This page showcases impactful initiatives I've led, focusing on empowering underserved communities and catalyzing career growth for emerging professionals.</p>
+        </section>
+
+        <!-- Program Design Strengths (Moved to be the second section) -->
+        <section class="p-6 bg-gray-700 rounded-lg shadow-inner border border-gray-600">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">My Core Strengths in Program Design</h2>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>Scalable & Adaptable Learning Models:</strong> Designing frameworks that flex to diverse learner needs and environments.</span></li>
+                <li class="flex items-start"><span><strong>Community-Centric Engagement:</strong> Cultivating peer-driven strategies for deeper participant involvement and retention.</span></li>
+                <li class="flex items-start"><span><strong>Results-Oriented Focus:</strong> Driving initiatives with clear, trackable outcomes and impactful employer collaborations.</span></li>
+            </ul>
         </section>
 
         <!-- Digital Certification Program -->
-        <section class="p-6 bg-white rounded-lg shadow-md border border-gray-200">
-            <h2 class="text-3xl sm:text-4xl font-bold text-indigo-700 mb-4 flex items-center">
-                <span class="mr-3 text-indigo-500">📊</span> Digital Certification Program
-            </h2>
-            <h3 class="text-2xl sm:text-3xl font-semibold text-indigo-600 mb-3">Senior Digital Literacy Instructor | Queens Public Library</h3>
-            <p class="text-lg leading-relaxed text-gray-700 mb-2"><strong class="font-semibold text-gray-800">Challenge:</strong> Low digital literacy engagement in underserved communities.</p>
-            <p class="text-lg leading-relaxed text-gray-700 mb-4"><strong class="font-semibold text-gray-800">Solution:</strong> Designed and scaled a performance-based Microsoft Office Specialist (MOS) Certification program.</p>
+        <section class="p-6 bg-gray-800 rounded-lg shadow-md border border-gray-700">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">Digital Certification Program: Queens Public Library</h2>
+            <h3 class="font-heading-sub text-2xl sm:text-3xl font-semibold text-indigo-400 mb-3">Senior Digital Literacy Instructor | Pioneering MOS Certification</h3>
+            <p class="text-lg leading-relaxed text-gray-300 mb-2"><strong class="font-semibold text-white">The Challenge:</strong> Bridging significant digital literacy gaps within underserved communities.</p>
+            <p class="text-lg leading-relaxed text-gray-300 mb-4"><strong class="font-semibold text-white">Impact:</strong> Designed and scaled a high-impact Microsoft Office Specialist (MOS) Certification program, directly addressing critical skill deficits.</p>
             
-            <h4 class="text-xl font-bold text-gray-800 mb-2">Key Features:</h4>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">✅</span> <span><strong>Applied Assessments:</strong> “Optimize this dataset” challenges replaced passive quizzes.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">✅</span> <span><strong>Hybrid Delivery:</strong> 200+ learners annually (in-person + Google Classroom).</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">✅</span> <span><strong>Peer-Driven Engagement:</strong> Badges for peer reviews boosted referrals by 30%.</span></li>
+            <h4 class="font-heading-sub text-xl font-bold text-gray-200 mb-2">Strategic Innovations:</h4>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>Curriculum Development:</strong> Developed comprehensive curriculum standards and engaging training materials for in-person and virtual (Google Classroom) environments.</span></li>
+                <li class="flex items-start"><span><strong>Needs Assessment & Customization:</strong> Conducted needs assessments to identify skill gaps and tailored curricula to create positive learning outcomes and strong community relationships.</span></li>
+                <li class="flex items-start"><span><strong>Program Logistics & Efficiency:</strong> Managed scheduling, attendance tracking, and progress reporting, ensuring seamless program execution.</span></li>
+                <li class="flex items-start"><span><strong>Brand Presence & Outreach:</strong> Created outreach content across various channels to establish brand presence for the Queensbridge Tech Lab.</span></li>
+                <li class="flex items-start"><span><strong>Adaptive Hybrid Delivery:</strong> Engaged over 200 learners annually through dynamic in-person and Google Classroom modalities.</span></li>
             </ul>
 
-            <h4 class="text-xl font-bold text-gray-800 mt-6 mb-2">Results:</h4>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">👍</span> <span><strong>75% program completion rate</strong> (vs. 30% industry avg.)</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">👍</span> <span><strong>60% skill retention</strong> at 3-month follow-up</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">💬</span> <span>“Now I use Excel daily at my job — this changed everything.” — Program Graduate</span></li>
+            <h4 class="font-heading-sub text-xl font-bold text-gray-200 mt-6 mb-2">Tangible Outcomes:</h4>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>75% Program Completion Rate:</strong> Significantly exceeded the industry average of 30%.</span></li>
+                <li class="flex items-start"><span><strong>60% Skill Retention:</strong> Demonstrated robust knowledge retention at the 3-month follow-up.</span></li>
             </ul>
         </section>
 
-        <!-- Workforce Development Curriculum -->
-        <section class="p-6 bg-white rounded-lg shadow-md border border-gray-200">
-            <h2 class="text-3xl sm:text-4xl font-bold text-indigo-700 mb-4 flex items-center">
-                <span class="mr-3 text-indigo-500">💡</span> Workforce Development Curriculum
-            </h2>
-            <h3 class="text-2xl sm:text-3xl font-semibold text-indigo-600 mb-3">Curriculum Designer | Tech Talent Pipeline (NYC Mayor's Office)</h3>
-            <p class="text-lg leading-relaxed text-gray-700 mb-2"><strong class="font-semibold text-gray-800">Challenge:</strong> Bridging the gap between academic learning and industry demands for tech roles.</p>
-            <p class="text-lg leading-relaxed text-gray-700 mb-4"><strong class="font-semibold text-gray-800">Solution:</strong> Developed project-based curricula for in-demand tech skills, focusing on real-world application.</p>
+        <!-- Media Instructor -->
+        <section class="p-6 bg-gray-800 rounded-lg shadow-md border border-gray-700">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">Media Instructor: BRIC Arts & Media</h2>
+            <h3 class="font-heading-sub text-2xl sm:text-3xl font-semibold text-indigo-400 mb-3">November 2019 – November 2021 | Brooklyn, NY</h3>
+            <p class="text-lg leading-relaxed text-gray-300 mb-2"><strong class="font-semibold text-white">Impact:</strong> Designed engaging multimedia training and robust curricula for creative skill development.</p>
             
-            <h4 class="text-xl font-bold text-gray-800 mb-2">Key Features:</h4>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🚀</span> <span><strong>Industry-Aligned Projects:</strong> Case studies and capstone projects mirroring actual job tasks.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🛠️</span> <span><strong>Tool-Based Learning:</strong> Hands-on experience with industry-standard software and platforms.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🤝</span> <span><strong>Employer Partnerships:</strong> Integrated feedback from hiring managers into curriculum design.</span></li>
-            </ul>
-
-            <h4 class="text-xl font-bold text-gray-800 mt-6 mb-2">Results:</h4>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">📈</span> <span><strong>85% placement rate</strong> into tech internships or entry-level positions.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🌟</span> <span><strong>High trainee satisfaction</strong> (4.8/5.0 average feedback score).</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">💬</span> <span>“This program gave me the exact skills I needed to land my first software job.” — Program Participant</span></li>
+            <h4 class="font-heading-sub text-xl font-bold text-gray-200 mb-2">Key Contributions:</h4>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>Multimedia Content Creation:</strong> Developed video and podcast training materials using Adobe Creative Suite, enhancing engagement for over 150 participants.</span></li>
+                <li class="flex items-start"><span><strong>Instructional Design & Curriculum:</strong> Built structured curricula based on best practices, aligning with learner and organizational objectives.</span></li>
+                <li class="flex items-start"><span><strong>Assessment Frameworks:</strong> Created and structured assessment frameworks for student skill development and future exhibitions, demonstrating program management and cross-functional collaboration.</span></li>
             </ul>
         </section>
 
-        <!-- Community Workshop Series -->
-        <section class="p-6 bg-white rounded-lg shadow-md border border-gray-200">
-            <h2 class="text-3xl sm:text-4xl font-bold text-indigo-700 mb-4 flex items-center">
-                <span class="mr-3 text-indigo-500">🤝</span> Community Workshop Series
-            </h2>
-            <h3 class="text-2xl sm:text-3xl font-semibold text-indigo-600 mb-3">Lead Facilitator | NYC Digital Inclusion Initiative</h3>
-            <p class="text-lg leading-relaxed text-gray-700 mb-2"><strong class="font-semibold text-gray-800">Challenge:</strong> Providing accessible and relevant digital skills training to diverse community groups.</p>
-            <p class="text-lg leading-relaxed text-gray-700 mb-4"><strong class="font-semibold text-gray-800">Solution:</strong> Designed and delivered modular workshops on essential digital tools and online safety.</p>
+        <!-- College & Career Pathways Coach -->
+        <section class="p-6 bg-gray-800 rounded-lg shadow-md border border-gray-700">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">College & Career Pathways Coach: Brooklyn Public Library</h2>
+            <h3 class="font-heading-sub text-2xl sm:text-3xl font-semibold text-indigo-400 mb-3">November 2018 – November 2019 | Brooklyn, NY</h3>
+            <p class="text-lg leading-relaxed text-gray-300 mb-2"><strong class="font-semibold text-white">Impact:</strong> Guided students through career readiness with tailored workshops and personalized coaching.</p>
             
-            <h4 class="text-xl font-bold text-gray-800 mb-2">Key Features:</h4>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🌐</span> <span><strong>Hyper-Local Focus:</strong> Content tailored to specific neighborhood needs and interests.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🚶</span> <span><strong>Walk-In Accessibility:</strong> Open-door sessions requiring no prior registration.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">🗣️</span> <span><strong>Multilingual Support:</strong> Workshops offered in English, Spanish, and Mandarin.</span></li>
-            </ul>
-
-            <h4 class="text-xl font-bold text-gray-800 mt-6 mb-2">Results:</h4>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">💖</span> <span><strong>Served 1,500+ participants</strong> across 5 boroughs.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">⭐</span> <span><strong>Increased participant confidence</strong> in using digital tools by 40%.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">💬</span> <span>“I can finally video chat with my grandchildren and feel safe online thanks to these workshops.” — Workshop Participant</span></li>
+            <h4 class="font-heading-sub text-xl font-bold text-gray-200 mb-2">Key Contributions:</h4>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>Career Readiness Workshops:</strong> Designed and facilitated workshops on resume-building and presentation skills, leveraging Microsoft Office Suite.</span></li>
+                <li class="flex items-start"><span><strong>Data-Driven Progress Tracking:</strong> Managed detailed progress databases for 50+ students, generating reports to inform training adjustments and demonstrate continuous improvement.</span></li>
+                <li class="flex items-start"><span><strong>Personalized Guidance:</strong> Conducted weekly one-on-one sessions, tracking progress and providing tailored support toward professional credentials.</span></li>
             </ul>
         </section>
 
-        <!-- Program Design Strengths -->
-        <section class="p-6 bg-indigo-50 rounded-lg shadow-inner">
-            <h2 class="text-3xl sm:text-4xl font-bold text-indigo-700 mb-4 flex items-center">
-                <span class="mr-3 text-indigo-500">📌</span> Program Design Strengths
-            </h2>
-            <ul class="list-none pl-0 space-y-2 text-lg text-gray-700">
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">✔️</span> <span><strong>Scalable Learning Models</strong> adaptable to diverse learners.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">✔️</span> <span><strong>Community-Centered Engagement</strong> through peer-driven strategies.</span></li>
-                <li class="flex items-start"><span class="text-green-500 mr-2 text-2xl">✔️</span> <span><strong>Results-Driven Focus</strong> with trackable outcomes and employer collaborations.</span></li>
+        <!-- Community Education & Technology Specialist -->
+        <section class="p-6 bg-gray-800 rounded-lg shadow-md border border-gray-700">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">Community Education & Technology Specialist: The Point CDC</h2>
+            <h3 class="font-heading-sub text-2xl sm:text-3xl font-semibold text-indigo-400 mb-3">November 2016 – September 2018 | Bronx, NY</h3>
+            <p class="text-lg leading-relaxed text-gray-300 mb-2"><strong class="font-semibold text-white">Impact:</strong> Orchestrated comprehensive community education and technology support programs.</p>
+            
+            <h4 class="font-heading-sub text-xl font-bold text-gray-200 mb-2">Key Contributions:</h4>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>Program Coordination:</strong> Coordinated community education programs and staff development trainings for diverse populations, demonstrating strategic program management.</span></li>
+                <li class="flex items-start"><span><strong>Workshop Administration:</strong> Administered workshops, developing essential learning materials and job aids for both staff and community members.</span></li>
+                <li class="flex items-start"><span><strong>Technical Support:</strong> Provided critical A/V equipment support, ensuring seamless operations and minimizing downtime during key sessions.</span></li>
+            </ul>
+        </section>
+
+        <!-- Social Media Coordinator -->
+        <section class="p-6 bg-gray-800 rounded-lg shadow-md border border-gray-700">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">Social Media Coordinator: Access Mindfulness</h2>
+            <h3 class="font-heading-sub text-2xl sm:text-3xl font-semibold text-indigo-400 mb-3">September 2017 – June 2018 | New York, NY</h3>
+            <p class="text-lg leading-relaxed text-gray-300 mb-2"><strong class="font-semibold text-white">Impact:</strong> Drove brand visibility and operational efficiency through strategic digital marketing and program coordination.</p>
+            
+            <h4 class="font-heading-sub text-xl font-bold text-gray-200 mb-2">Key Contributions:</h4>
+            <ul class="list-none pl-0 space-y-2 text-lg text-gray-300">
+                <li class="flex items-start"><span><strong>Workshop & Go-to-Market Strategy:</strong> Led coordination and implemented go-to-market strategies, enhancing operational efficiency through data-driven improvements.</span></li>
+                <li class="flex items-start"><span><strong>Digital Content & Brand Visibility:</strong> Managed website layout and executed strategic content creation to boost user education and brand visibility.</span></li>
+                <li class="flex items-start"><span><strong>Educator Program Facilitation:</strong> Facilitated education programs for NYC educators, developing curriculum standards and building relationships with partners to enhance community engagement and contribute to program growth.</span></li>
             </ul>
         </section>
 
         <!-- Contact Section -->
-        <footer class="contact text-center p-6 bg-gray-100 rounded-lg shadow-inner">
-            <h2 class="text-3xl sm:text-4xl font-bold text-indigo-700 mb-4 flex items-center justify-center">
-                <span class="mr-3 text-indigo-500">📬</span> Contact
-            </h2>
-            <p class="text-lg leading-relaxed text-gray-700">
-                📧 <a href="mailto:brandonpnyc@gmail.com" class="text-indigo-600 hover:underline">brandonpnyc@gmail.com</a><br>
-                📱 (347) 446-6243<br>
-                🔗 <a href="https://www.linkedin.com/in/brandonpayne/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">LinkedIn Profile</a>
+        <footer class="contact text-center p-6 bg-gray-700 rounded-lg shadow-inner border border-gray-600">
+            <h2 class="font-heading-sub text-3xl sm:text-4xl font-bold text-indigo-300 mb-4">Connect with Brandon</h2>
+            <p class="text-lg leading-relaxed text-gray-300 flex justify-center items-center flex-wrap gap-x-2">
+                <a href="mailto:brandonpnyc@gmail.com" class="text-indigo-400 hover:underline">brandonpnyc@gmail.com</a>
+                <span>|</span>
+                <a href="https://www.linkedin.com/in/brpayne/" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:underline">LinkedIn</a>
+                <span>|</span>
+                <span>(347) 446-6243</span>
             </p>
         </footer>
 
     </div>
 </body>
 </html>
+
